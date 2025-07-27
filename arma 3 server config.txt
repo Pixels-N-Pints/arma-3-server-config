@@ -1064,28 +1064,28 @@ force sss_transport_taskMarkers = true;
 force sss_transport_visualAids = true;
 force sss_transport_visualAidsLive = true;
 
-// TFAR - Clientside settings
-TFAR_curatorCamEars = false;
-TFAR_default_radioVolume = 6;
-TFAR_intercomDucking = 0.2;
-TFAR_intercomVolume = 0.1;
-TFAR_moveWhileTabbedOut = false;
-TFAR_noAutomoveSpectator = false;
-TFAR_oldVolumeHint = false;
-TFAR_pluginTimeout = 4;
-TFAR_PosUpdateMode = 0.1;
-TFAR_showChannelChangedHint = true;
-TFAR_ShowDiaryRecord = true;
-TFAR_showTransmittingHint = true;
-TFAR_ShowVolumeHUD = false;
-TFAR_splendidCamEars = false;
-TFAR_tangentReleaseDelay = 0;
-TFAR_VolumeHudTransparency = 0;
-TFAR_volumeModifier_forceSpeech = false;
+//  - Clientside settings
+_curatorCamEars = false;
+_default_radioVolume = 6;
+_intercomDucking = 0.2;
+_intercomVolume = 0.1;
+_moveWhileTabbedOut = false;
+_noAutomoveSpectator = false;
+_oldVolumeHint = false;
+_pluginTimeout = 4;
+_PosUpdateMode = 0.1;
+_showChannelChangedHint = true;
+_ShowDiaryRecord = true;
+_showTransmittingHint = true;
+_ShowVolumeHUD = false;
+_splendidCamEars = false;
+_tangentReleaseDelay = 0;
+_VolumeHudTransparency = 0;
+_volumeModifier_forceSpeech = false;
 
-// TFAR - Global settings
-force TFAR_AICanHearPlayer = false;
-force TFAR_AICanHearSpeaker = false;
+//  - Global settings
+force TFAR_AICanHearPlayer = true;
+force TFAR_AICanHearSpeaker = true;
 force TFAR_allowDebugging = true;
 tfar_core_noTSNotConnectedHint = false;
 force TFAR_defaultIntercomSlot = 0;
