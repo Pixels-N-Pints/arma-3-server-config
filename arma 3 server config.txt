@@ -176,7 +176,7 @@ force acex_headless_transferLoadout = 0;
 // ACE Hearing
 force ace_hearing_autoAddEarplugsToUnits = 1;
 ace_hearing_disableEarRinging = false;
-force ace_hearing_earplugsVolume = 0.5;
+force ace_hearing_earplugsVolume = 1.0;
 force ace_hearing_enableCombatDeafness = true;
 force ace_hearing_enabledForZeusUnits = true;
 ace_hearing_enableNoiseDucking = true;
@@ -544,7 +544,7 @@ force ace_medical_treatment_locationSurgicalKit = 0;
 force ace_medical_treatment_maxLitterObjects = 500;
 force ace_medical_treatment_medicAdenosine = 1;
 force ace_medical_treatment_medicEpinephrine = 1;
-force ace_medical_treatment_medicIV = 1;
+force ace_medical_treatment_medicIV = 0;
 force ace_medical_treatment_medicMorphine = 1;
 force ace_medical_treatment_medicPAK = 1;
 force ace_medical_treatment_medicSplint = 0;
